@@ -4,7 +4,9 @@
   "description": "Decentralized Escrow Application",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npx buidler test",
+    "start": "npm run compile && parcel app/index.html",
+    "compile": "npx buidler compile"
   },
   "author": "",
   "license": "ISC",
